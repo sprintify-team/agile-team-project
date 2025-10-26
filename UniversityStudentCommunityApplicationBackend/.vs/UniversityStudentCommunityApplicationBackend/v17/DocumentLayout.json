@@ -1,22 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ahmet\\OneDrive\\Desktop\\UniversityStudentCommunityApplicationBackend\\",
+  "WorkspaceRootPath": "C:\\Users\\ahmet\\OneDrive\\Desktop\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{30846347-86B9-47B6-968A-DFE542A511F2}|Services\\Services.csproj|c:\\users\\ahmet\\onedrive\\desktop\\universitystudentcommunityapplicationbackend\\services\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30846347-86B9-47B6-968A-DFE542A511F2}|Services\\Services.csproj|solutionrelative:services\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8DE62AEA-73A3-4641-B3AE-FC0B4840136D}|Repositories\\Repositories.csproj|c:\\users\\ahmet\\onedrive\\desktop\\agile-team-project\\universitystudentcommunityapplicationbackend\\repositories\\efcore\\systemmessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DE62AEA-73A3-4641-B3AE-FC0B4840136D}|Repositories\\Repositories.csproj|solutionrelative:repositories\\efcore\\systemmessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D8BD1F9-E794-49D2-BA3E-8E769DB0C8B9}|Entities\\Entities.csproj|c:\\users\\ahmet\\onedrive\\desktop\\universitystudentcommunityapplicationbackend\\entities\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D8BD1F9-E794-49D2-BA3E-8E769DB0C8B9}|Entities\\Entities.csproj|solutionrelative:entities\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30846347-86B9-47B6-968A-DFE542A511F2}|Services\\Services.csproj|c:\\users\\ahmet\\onedrive\\desktop\\agile-team-project\\universitystudentcommunityapplicationbackend\\services\\contracts\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30846347-86B9-47B6-968A-DFE542A511F2}|Services\\Services.csproj|solutionrelative:services\\contracts\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CD05F3E-FC06-41F4-8464-29985623F040}|Presentation\\Presentation.csproj|c:\\users\\ahmet\\onedrive\\desktop\\universitystudentcommunityapplicationbackend\\presentation\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CD05F3E-FC06-41F4-8464-29985623F040}|Presentation\\Presentation.csproj|solutionrelative:presentation\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7CB153A7-5168-4C74-A57E-0887B1456D99}|WebApi\\WebApi.csproj|c:\\users\\ahmet\\onedrive\\desktop\\agile-team-project\\universitystudentcommunityapplicationbackend\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CB153A7-5168-4C74-A57E-0887B1456D99}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8DE62AEA-73A3-4641-B3AE-FC0B4840136D}|Repositories\\Repositories.csproj|c:\\users\\ahmet\\onedrive\\desktop\\universitystudentcommunityapplicationbackend\\repositories\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DE62AEA-73A3-4641-B3AE-FC0B4840136D}|Repositories\\Repositories.csproj|solutionrelative:repositories\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8DE62AEA-73A3-4641-B3AE-FC0B4840136D}|Repositories\\Repositories.csproj|c:\\users\\ahmet\\onedrive\\desktop\\agile-team-project\\universitystudentcommunityapplicationbackend\\repositories\\efcore\\repositorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DE62AEA-73A3-4641-B3AE-FC0B4840136D}|Repositories\\Repositories.csproj|solutionrelative:repositories\\efcore\\repositorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DE62AEA-73A3-4641-B3AE-FC0B4840136D}|Repositories\\Repositories.csproj|c:\\users\\ahmet\\onedrive\\desktop\\agile-team-project\\universitystudentcommunityapplicationbackend\\repositories\\contracts\\isystemmessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DE62AEA-73A3-4641-B3AE-FC0B4840136D}|Repositories\\Repositories.csproj|solutionrelative:repositories\\contracts\\isystemmessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DE62AEA-73A3-4641-B3AE-FC0B4840136D}|Repositories\\Repositories.csproj|c:\\users\\ahmet\\onedrive\\desktop\\agile-team-project\\universitystudentcommunityapplicationbackend\\repositories\\config\\systemmessageconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DE62AEA-73A3-4641-B3AE-FC0B4840136D}|Repositories\\Repositories.csproj|solutionrelative:repositories\\config\\systemmessageconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D8BD1F9-E794-49D2-BA3E-8E769DB0C8B9}|Entities\\Entities.csproj|c:\\users\\ahmet\\onedrive\\desktop\\agile-team-project\\universitystudentcommunityapplicationbackend\\entities\\models\\systemmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D8BD1F9-E794-49D2-BA3E-8E769DB0C8B9}|Entities\\Entities.csproj|solutionrelative:entities\\models\\systemmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D8BD1F9-E794-49D2-BA3E-8E769DB0C8B9}|Entities\\Entities.csproj|c:\\users\\ahmet\\onedrive\\desktop\\agile-team-project\\universitystudentcommunityapplicationbackend\\entities\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D8BD1F9-E794-49D2-BA3E-8E769DB0C8B9}|Entities\\Entities.csproj|solutionrelative:entities\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CB153A7-5168-4C74-A57E-0887B1456D99}|WebApi\\WebApi.csproj|c:\\users\\ahmet\\onedrive\\desktop\\agile-team-project\\universitystudentcommunityapplicationbackend\\webapi\\contextfactory\\repositorycontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CB153A7-5168-4C74-A57E-0887B1456D99}|WebApi\\WebApi.csproj|solutionrelative:webapi\\contextfactory\\repositorycontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CB153A7-5168-4C74-A57E-0887B1456D99}|WebApi\\WebApi.csproj|c:\\users\\ahmet\\onedrive\\desktop\\agile-team-project\\universitystudentcommunityapplicationbackend\\webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7CB153A7-5168-4C74-A57E-0887B1456D99}|WebApi\\WebApi.csproj|solutionrelative:webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CB153A7-5168-4C74-A57E-0887B1456D99}|WebApi\\WebApi.csproj|c:\\users\\ahmet\\onedrive\\desktop\\agile-team-project\\universitystudentcommunityapplicationbackend\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7CB153A7-5168-4C74-A57E-0887B1456D99}|WebApi\\WebApi.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +54,116 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\ahmet\\OneDrive\\Desktop\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\Services\\Contracts\\Class1.cs",
+              "RelativeDocumentMoniker": "Services\\Contracts\\Class1.cs",
+              "ToolTip": "C:\\Users\\ahmet\\OneDrive\\Desktop\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\Services\\Contracts\\Class1.cs",
+              "RelativeToolTip": "Services\\Contracts\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T15:35:28.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SystemMessageRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ahmet\\OneDrive\\Desktop\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\Repositories\\EFCore\\SystemMessageRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\EFCore\\SystemMessageRepository.cs",
+              "ToolTip": "C:\\Users\\ahmet\\OneDrive\\Desktop\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\Repositories\\EFCore\\SystemMessageRepository.cs",
+              "RelativeToolTip": "Repositories\\EFCore\\SystemMessageRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T15:32:14.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ISystemMessageRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ahmet\\OneDrive\\Desktop\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\Repositories\\Contracts\\ISystemMessageRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Contracts\\ISystemMessageRepository.cs",
+              "ToolTip": "C:\\Users\\ahmet\\OneDrive\\Desktop\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\Repositories\\Contracts\\ISystemMessageRepository.cs",
+              "RelativeToolTip": "Repositories\\Contracts\\ISystemMessageRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T15:30:49.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SystemMessageConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\ahmet\\OneDrive\\Desktop\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\Repositories\\Config\\SystemMessageConfiguration.cs",
+              "RelativeDocumentMoniker": "Repositories\\Config\\SystemMessageConfiguration.cs",
+              "ToolTip": "C:\\Users\\ahmet\\OneDrive\\Desktop\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\Repositories\\Config\\SystemMessageConfiguration.cs",
+              "RelativeToolTip": "Repositories\\Config\\SystemMessageConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T14:34:47.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RepositoryContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\ahmet\\OneDrive\\Desktop\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\WebApi\\ContextFactory\\RepositoryContextFactory.cs",
+              "RelativeDocumentMoniker": "WebApi\\ContextFactory\\RepositoryContextFactory.cs",
+              "ToolTip": "C:\\Users\\ahmet\\OneDrive\\Desktop\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\WebApi\\ContextFactory\\RepositoryContextFactory.cs",
+              "RelativeToolTip": "WebApi\\ContextFactory\\RepositoryContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T13:45:22.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ahmet\\OneDrive\\Desktop\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\ahmet\\OneDrive\\Desktop\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\WebApi\\appsettings.json",
+              "RelativeToolTip": "WebApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-26T13:41:29.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WebApi",
+              "DocumentMoniker": "C:\\Users\\ahmet\\OneDrive\\Desktop\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\WebApi\\WebApi.csproj",
+              "RelativeDocumentMoniker": "WebApi\\WebApi.csproj",
+              "ToolTip": "C:\\Users\\ahmet\\OneDrive\\Desktop\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\WebApi\\WebApi.csproj",
+              "RelativeToolTip": "WebApi\\WebApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-26T13:35:45.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\ahmet\\OneDrive\\Desktop\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\Entities\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Entities\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\ahmet\\OneDrive\\Desktop\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\Entities\\Models\\User.cs",
+              "RelativeToolTip": "Entities\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T13:31:33.431Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -62,65 +198,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\ahmet\\OneDrive\\Desktop\\UniversityStudentCommunityApplicationBackend\\Services\\Class1.cs",
-              "RelativeDocumentMoniker": "Services\\Class1.cs",
-              "ToolTip": "C:\\Users\\ahmet\\OneDrive\\Desktop\\UniversityStudentCommunityApplicationBackend\\Services\\Class1.cs",
-              "RelativeToolTip": "Services\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "RepositoryContext.cs",
+              "DocumentMoniker": "C:\\Users\\ahmet\\OneDrive\\Desktop\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\Repositories\\EFCore\\RepositoryContext.cs",
+              "RelativeDocumentMoniker": "Repositories\\EFCore\\RepositoryContext.cs",
+              "ToolTip": "C:\\Users\\ahmet\\OneDrive\\Desktop\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\Repositories\\EFCore\\RepositoryContext.cs",
+              "RelativeToolTip": "Repositories\\EFCore\\RepositoryContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T10:28:34.115Z",
+              "WhenOpened": "2025-10-26T13:27:14.561Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\ahmet\\OneDrive\\Desktop\\UniversityStudentCommunityApplicationBackend\\Entities\\Class1.cs",
-              "RelativeDocumentMoniker": "Entities\\Class1.cs",
-              "ToolTip": "C:\\Users\\ahmet\\OneDrive\\Desktop\\UniversityStudentCommunityApplicationBackend\\Entities\\Class1.cs",
-              "RelativeToolTip": "Entities\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "SystemMessage.cs",
+              "DocumentMoniker": "C:\\Users\\ahmet\\OneDrive\\Desktop\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\Entities\\Models\\SystemMessage.cs",
+              "RelativeDocumentMoniker": "Entities\\Models\\SystemMessage.cs",
+              "ToolTip": "C:\\Users\\ahmet\\OneDrive\\Desktop\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\Entities\\Models\\SystemMessage.cs",
+              "RelativeToolTip": "Entities\\Models\\SystemMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T10:28:19.63Z",
+              "WhenOpened": "2025-10-26T12:49:49.95Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\ahmet\\OneDrive\\Desktop\\UniversityStudentCommunityApplicationBackend\\Presentation\\Class1.cs",
-              "RelativeDocumentMoniker": "Presentation\\Class1.cs",
-              "ToolTip": "C:\\Users\\ahmet\\OneDrive\\Desktop\\UniversityStudentCommunityApplicationBackend\\Presentation\\Class1.cs",
-              "RelativeToolTip": "Presentation\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ahmet\\OneDrive\\Desktop\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\ahmet\\OneDrive\\Desktop\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\WebApi\\Program.cs",
+              "RelativeToolTip": "WebApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T10:27:50.983Z",
+              "WhenOpened": "2025-10-26T13:56:29.213Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\ahmet\\OneDrive\\Desktop\\UniversityStudentCommunityApplicationBackend\\Repositories\\Class1.cs",
-              "RelativeDocumentMoniker": "Repositories\\Class1.cs",
-              "ToolTip": "C:\\Users\\ahmet\\OneDrive\\Desktop\\UniversityStudentCommunityApplicationBackend\\Repositories\\Class1.cs",
-              "RelativeToolTip": "Repositories\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T10:26:48.307Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ahmet\\OneDrive\\Desktop\\UniversityStudentCommunityApplicationBackend\\Services\\Services.csproj",
+      "projectUniqueName": "C:\\Users\\ahmet\\OneDrive\\Desktop\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\Services\\Services.csproj",
       "projectName": "Services",
-      "projectPath": "C:\\Users\\ahmet\\OneDrive\\Desktop\\UniversityStudentCommunityApplicationBackend\\Services\\Services.csproj",
+      "projectPath": "C:\\Users\\ahmet\\OneDrive\\Desktop\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\Services\\Services.csproj",
       "packagesPath": "C:\\Users\\ahmet\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ahmet\\OneDrive\\Desktop\\UniversityStudentCommunityApplicationBackend\\Services\\obj\\",
+      "outputPath": "C:\\Users\\ahmet\\OneDrive\\Desktop\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

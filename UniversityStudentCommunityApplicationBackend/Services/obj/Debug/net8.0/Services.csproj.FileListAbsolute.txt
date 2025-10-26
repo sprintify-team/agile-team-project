@@ -1,0 +1,12 @@
+C:\Users\ahmet\OneDrive\Desktop\agile-team-project\UniversityStudentCommunityApplicationBackend\Services\bin\Debug\net8.0\Services.deps.json
+C:\Users\ahmet\OneDrive\Desktop\agile-team-project\UniversityStudentCommunityApplicationBackend\Services\bin\Debug\net8.0\Services.dll
+C:\Users\ahmet\OneDrive\Desktop\agile-team-project\UniversityStudentCommunityApplicationBackend\Services\bin\Debug\net8.0\Services.pdb
+C:\Users\ahmet\OneDrive\Desktop\agile-team-project\UniversityStudentCommunityApplicationBackend\Services\obj\Debug\net8.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ahmet\OneDrive\Desktop\agile-team-project\UniversityStudentCommunityApplicationBackend\Services\obj\Debug\net8.0\Services.AssemblyInfoInputs.cache
+C:\Users\ahmet\OneDrive\Desktop\agile-team-project\UniversityStudentCommunityApplicationBackend\Services\obj\Debug\net8.0\Services.AssemblyInfo.cs
+C:\Users\ahmet\OneDrive\Desktop\agile-team-project\UniversityStudentCommunityApplicationBackend\Services\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
+C:\Users\ahmet\OneDrive\Desktop\agile-team-project\UniversityStudentCommunityApplicationBackend\Services\obj\Debug\net8.0\Services.sourcelink.json
+C:\Users\ahmet\OneDrive\Desktop\agile-team-project\UniversityStudentCommunityApplicationBackend\Services\obj\Debug\net8.0\Services.dll
+C:\Users\ahmet\OneDrive\Desktop\agile-team-project\UniversityStudentCommunityApplicationBackend\Services\obj\Debug\net8.0\refint\Services.dll
+C:\Users\ahmet\OneDrive\Desktop\agile-team-project\UniversityStudentCommunityApplicationBackend\Services\obj\Debug\net8.0\Services.pdb
+C:\Users\ahmet\OneDrive\Desktop\agile-team-project\UniversityStudentCommunityApplicationBackend\Services\obj\Debug\net8.0\ref\Services.dll

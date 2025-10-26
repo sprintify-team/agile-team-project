@@ -1,3 +1,10 @@
+using Entities.Models;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Repositories.Contracts;
+using Repositories.EFCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +13,36 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+// DbContext ve Repository servislerini ekle
+builder.Services.AddDbContext<RepositoryContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+
+builder.Services.AddScoped<ISystemMessageRepository, SystemMessageRepository>();
+
+
+builder.Services.AddIdentity<User, IdentityRole>(options =>
+{
+    // Password settings
+    options.Password.RequireDigit = false;
+    options.Password.RequireLowercase = false;
+    options.Password.RequireUppercase = false;
+    options.Password.RequireNonAlphanumeric = false;
+    options.Password.RequiredLength = 2;
+    options.Password.RequiredUniqueChars = 0;
+
+    // Lockout settings (opsiyonel)
+    options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
+    options.Lockout.MaxFailedAccessAttempts = 5;
+    options.Lockout.AllowedForNewUsers = true;
+
+    // User settings
+    options.User.RequireUniqueEmail = true;
+})
+.AddEntityFrameworkStores<RepositoryContext>()
+.AddRoleManager<RoleManager<IdentityRole>>()
+.AddDefaultTokenProviders();
 
 var app = builder.Build();
 
