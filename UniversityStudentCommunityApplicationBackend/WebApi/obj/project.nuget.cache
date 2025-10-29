@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OPXMCZhxQnA=",
+  "dgSpecHash": "RtJPeL8eRzo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ahmet\\OneDrive\\Desktop\\asdfasdf\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\WebApi\\WebApi.csproj",
+  "projectFilePath": "C:\\Users\\ahmet\\OneDrive\\Desktop\\son bi deneme\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ahmet\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\ahmet\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
@@ -123,9 +123,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'Microsoft.AspNet.WebApi.Core 5.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\Users\\ahmet\\OneDrive\\Desktop\\asdfasdf\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\WebApi\\WebApi.csproj",
+      "projectPath": "C:\\Users\\ahmet\\OneDrive\\Desktop\\son bi deneme\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\WebApi\\WebApi.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\ahmet\\OneDrive\\Desktop\\asdfasdf\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\WebApi\\WebApi.csproj",
+      "filePath": "C:\\Users\\ahmet\\OneDrive\\Desktop\\son bi deneme\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\WebApi\\WebApi.csproj",
       "libraryId": "Microsoft.AspNet.WebApi.Core",
       "targetGraphs": [
         "net8.0"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L/sPVQvgHHg=",
+  "dgSpecHash": "Vo6V6Sl3h3E=",
   "success": true,
-  "projectFilePath": "C:\\Users\\ahmet\\OneDrive\\Desktop\\asdfasdf\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\ahmet\\OneDrive\\Desktop\\son bi deneme\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ahmet\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.21\\microsoft.aspnetcore.cryptography.internal.8.0.21.nupkg.sha512",
     "C:\\Users\\ahmet\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\8.0.21\\microsoft.aspnetcore.cryptography.keyderivation.8.0.21.nupkg.sha512",

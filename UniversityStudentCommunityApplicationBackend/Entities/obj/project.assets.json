@@ -821,11 +821,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ahmet\\OneDrive\\Desktop\\asdfasdf\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\Entities\\Entities.csproj",
+      "projectUniqueName": "C:\\Users\\ahmet\\OneDrive\\Desktop\\son bi deneme\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\Entities\\Entities.csproj",
       "projectName": "Entities",
-      "projectPath": "C:\\Users\\ahmet\\OneDrive\\Desktop\\asdfasdf\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\Entities\\Entities.csproj",
+      "projectPath": "C:\\Users\\ahmet\\OneDrive\\Desktop\\son bi deneme\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\Entities\\Entities.csproj",
       "packagesPath": "C:\\Users\\ahmet\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ahmet\\OneDrive\\Desktop\\asdfasdf\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\Entities\\obj\\",
+      "outputPath": "C:\\Users\\ahmet\\OneDrive\\Desktop\\son bi deneme\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
