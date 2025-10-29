@@ -1,14 +1,17 @@
 ﻿using Entities.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Services.Contracts
 {
     public interface ISystemMessageService
     {
-        Task<SystemMessage?> GetSystemMessageByCode(string code);
+        // Okuma işlemleri
+        Task<SystemMessage?> GetMessageByCodeAsync(string code);
+        Task<SystemMessage?> GetMessageByIdAsync(int id);
+        Task<IEnumerable<SystemMessage>> GetAllMessagesAsync();
+
+        // Yazma işlemleri
+        Task CreateMessageAsync(SystemMessage message);
+        Task UpdateMessageAsync(SystemMessage message);
+        Task DeleteMessageAsync(int id); // ID ile silmek daha yaygındır
     }
 }

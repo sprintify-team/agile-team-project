@@ -13,8 +13,7 @@ namespace Repositories.EFCore
             _context = context;
         }
 
-        // --- OKUMA METODLARI ---
-
+        // --- OKUMA METODLARI 
         public async Task<SystemMessage?> GetSystemMessageByCodeAsync(string code, bool trackChanges) =>
             !trackChanges ?
               await _context.SystemMessages.AsNoTracking().FirstOrDefaultAsync(m => m.Code.Equals(code)) :
@@ -30,26 +29,22 @@ namespace Repositories.EFCore
               await _context.SystemMessages.AsNoTracking().ToListAsync() :
               await _context.SystemMessages.ToListAsync();
 
-        // --- YAZMA METODLARI (KAYDETME İŞLEMİ BURADA) ---
 
-        public async Task CreateSystemMessageAsync(SystemMessage message)
+        // --- YAZMA METODLARI 
+
+        public void CreateSystemMessage(SystemMessage message)
         {
             _context.SystemMessages.Add(message);
-            await _context.SaveChangesAsync(); // Değişikliği anında kaydet
         }
 
-        public async Task UpdateSystemMessageAsync(SystemMessage message)
+        public void UpdateSystemMessage(SystemMessage message)
         {
-            // Update için önce entity'nin takip edildiğinden emin ol
-            // Veya daha basitçe:
             _context.SystemMessages.Update(message);
-            await _context.SaveChangesAsync();
         }
 
-        public async Task DeleteSystemMessageAsync(SystemMessage message)
+        public void DeleteSystemMessage(SystemMessage message)
         {
             _context.SystemMessages.Remove(message);
-            await _context.SaveChangesAsync();
         }
     }
 }

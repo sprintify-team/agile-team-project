@@ -5,6 +5,7 @@ using Microsoft.Extensions.Configuration;
 using Presentation.Controllers;
 using Repositories.Contracts;
 using Repositories.EFCore;
+using Services;
 using Services.Contracts;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -20,10 +21,12 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<RepositoryContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-builder.Services.AddScoped<ISystemMessageService, SystemMessageService>();
 
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 builder.Services.AddScoped<ISystemMessageRepository, SystemMessageRepository>();
+
+builder.Services.AddScoped<ISystemMessageService, SystemMessageService>();
 
 
 builder.Services.AddIdentity<User, IdentityRole>(options =>

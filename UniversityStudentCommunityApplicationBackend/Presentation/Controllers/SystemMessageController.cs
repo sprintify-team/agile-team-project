@@ -13,19 +13,20 @@ namespace Presentation.Controllers
     [ApiController]
     public class SystemMessageController : ControllerBase
     {
-        private readonly ISystemMessageService _service;
+        private readonly ISystemMessageService _systemMessageService;
 
-        public SystemMessageController(ISystemMessageService service)
+        public SystemMessageController(ISystemMessageService systemMessageService)
         {
-            _service = service;
+            _systemMessageService = systemMessageService;
         }
+
         [HttpGet("{code}")]
         public async Task<IActionResult> GetSystemMessageByCode([FromRoute] string code)
         {
             if (string.IsNullOrWhiteSpace(code))
                 return BadRequest("Code parameter is required.");
 
-            var message = await _service.GetSystemMessageByCode(code);
+            var message = await _systemMessageService.GetMessageByCodeAsync(code);
 
             if (message is null)
                 return NotFound($"Message with code '{code}' not found.");

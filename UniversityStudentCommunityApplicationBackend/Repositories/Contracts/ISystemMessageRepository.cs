@@ -9,14 +9,21 @@ namespace Repositories.Contracts
 {
     public interface ISystemMessageRepository
     {
-        // Okuma (Read) Metodları
+        // Okuma (Read) Metodları 
         Task<SystemMessage?> GetSystemMessageByCodeAsync(string code, bool trackChanges);
         Task<SystemMessage?> GetSystemMessageByIdAsync(int id, bool trackChanges);
         Task<IEnumerable<SystemMessage>> GetAllSystemMessagesAsync(bool trackChanges);
 
+
         // Yazma (Write) Metodları
-        Task CreateSystemMessageAsync(SystemMessage message);
-        Task UpdateSystemMessageAsync(SystemMessage message); // Güncellemeyi yapıp kaydedecek
-        Task DeleteSystemMessageAsync(SystemMessage message); // Silmeyi yapıp kaydedecek
+
+        // Sadece Context'e ekler, kaydetmez.
+        void CreateSystemMessage(SystemMessage message);
+
+        // Sadece Context'te günceller, kaydetmez.
+        void UpdateSystemMessage(SystemMessage message);
+
+        // Sadece Context'ten silmek için işaretler, kaydetmez.
+        void DeleteSystemMessage(SystemMessage message);
     }
 }

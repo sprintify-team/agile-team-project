@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "Presentation.Controllers.SystemMessageController",
-    "Method": "GetComingSoonMessage",
+    "Method": "GetSystemMessageByCode",
     "RelativePath": "api/SystemMessage/{code}",
     "HttpMethod": "GET",
     "IsController": true,

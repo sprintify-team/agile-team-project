@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\musta\\Source\\Repos\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\Entities\\Entities.csproj": {}
+    "C:\\Users\\ahmet\\OneDrive\\Desktop\\asdfasdf\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\musta\\Source\\Repos\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\Entities\\Entities.csproj": {
+    "C:\\Users\\ahmet\\OneDrive\\Desktop\\asdfasdf\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\musta\\Source\\Repos\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\ahmet\\OneDrive\\Desktop\\asdfasdf\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\musta\\Source\\Repos\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\musta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\musta\\Source\\Repos\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\Entities\\obj\\",
+        "projectPath": "C:\\Users\\ahmet\\OneDrive\\Desktop\\asdfasdf\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\ahmet\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ahmet\\OneDrive\\Desktop\\asdfasdf\\agile-team-project\\UniversityStudentCommunityApplicationBackend\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\musta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ahmet\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -71,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
