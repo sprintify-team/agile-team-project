@@ -20,7 +20,7 @@ namespace Presentation.Controllers
             _service = service;
         }
         [HttpGet("{code}")]
-        public async Task<IActionResult> GetComingSoonMessage([FromRoute] string code)
+        public async Task<IActionResult> GetSystemMessageByCode([FromRoute] string code)
         {
             if (string.IsNullOrWhiteSpace(code))
                 return BadRequest("Code parameter is required.");
