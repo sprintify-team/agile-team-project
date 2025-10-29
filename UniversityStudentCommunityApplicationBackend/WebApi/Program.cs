@@ -2,14 +2,16 @@ using Entities.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using Presentation.Controllers;
 using Repositories.Contracts;
 using Repositories.EFCore;
+using Services.Contracts;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Services.AddControllers();
+builder.Services.AddControllers().AddApplicationPart(typeof(SystemMessageController).Assembly);
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -17,6 +19,8 @@ builder.Services.AddSwaggerGen();
 // DbContext ve Repository servislerini ekle
 builder.Services.AddDbContext<RepositoryContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddScoped<ISystemMessageService, SystemMessageService>();
 
 
 builder.Services.AddScoped<ISystemMessageRepository, SystemMessageRepository>();

@@ -4,3 +4,7 @@ GET {{WebApi_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
+
+GET {{WebApi_HostAddress}}/api/systemmessage/coming-soon
+
+###

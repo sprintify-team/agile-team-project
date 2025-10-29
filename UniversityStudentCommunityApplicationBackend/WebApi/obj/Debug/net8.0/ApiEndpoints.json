@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "ContainingType": "Presentation.Controllers.SystemMessageController",
+    "Method": "GetComingSoonMessage",
+    "RelativePath": "api/SystemMessage/{code}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "code",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

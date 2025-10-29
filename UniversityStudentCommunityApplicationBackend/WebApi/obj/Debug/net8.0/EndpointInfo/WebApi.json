@@ -4,6 +4,29 @@
     "title": "WebApi",
     "version": "1.0"
   },
-  "paths": { },
+  "paths": {
+    "/api/SystemMessage/{code}": {
+      "get": {
+        "tags": [
+          "SystemMessage"
+        ],
+        "parameters": [
+          {
+            "name": "code",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
   "components": { }
 }
