@@ -1,0 +1,12 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.sln.docstates
+
+# .NET Core build outputs
+[Bb]in/
+[Oo]bj/
+
+# Rider
+.idea/
