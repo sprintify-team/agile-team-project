@@ -24,7 +24,7 @@ dotnet ef database update
 dotnet run
 ```
 
-API, **launchSettings.json** dosyanızda tanımlı portta (örneğin **https://localhost:7295**) çalışacaktır.
+API, **launchSettings.json** dosyanızda tanımlı portta (örneğin **http://localhost:5250**) çalışacaktır.
 
 ### 🔍 Test Etme (Swagger UI)
 Uygulama çalıştığında Swagger otomatik olarak açılır:  
