@@ -28,7 +28,7 @@ API, **launchSettings.json** dosyanızda tanımlı portta (örneğin **https://l
 
 ### 🔍 Test Etme (Swagger UI)
 Uygulama çalıştığında Swagger otomatik olarak açılır:  
-➡️ [https://localhost:7295/swagger/index.html](https://localhost:5250/swagger/index.html)
+➡️ [http://localhost:5250/swagger/index.html]
 
 Swagger arayüzünden **GET /api/SystemMessage/{code}** endpointini kullanarak test edebilirsiniz.  
 Örneğin:
