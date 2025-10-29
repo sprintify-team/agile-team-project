@@ -1,4 +1,4 @@
-# README – University Student Community Application
+# University Student Community Application
 
 ## 1️⃣ MSSQL
 MSSQL Server localinizde kurulu olmalıdır.  
