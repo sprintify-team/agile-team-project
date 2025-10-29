@@ -51,6 +51,19 @@ builder.Services.AddIdentity<User, IdentityRole>(options =>
 .AddRoleManager<RoleManager<IdentityRole>>()
 .AddDefaultTokenProviders();
 
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowReact",
+        policy =>
+        {
+            policy.WithOrigins("http://localhost:5173")
+                  .AllowAnyHeader()
+                  .AllowAnyMethod();
+        });
+});
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
