@@ -31,7 +31,7 @@ namespace Presentation.Controllers
             if (message is null)
                 return NotFound($"Message with code '{code}' not found.");
 
-            return Ok(message.Message);
+            return Ok(message);
         }
     }
 }
