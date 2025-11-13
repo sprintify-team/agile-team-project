@@ -1,4 +1,5 @@
-﻿using Entities.Models;
+﻿using Entities.Exceptions;
+using Entities.Models;
 using Repositories.Contracts;
 using Services.Contracts;
 
@@ -43,7 +44,7 @@ namespace Services
             var entityToUpdate = await _systemMessageRepository.GetSystemMessageByIdAsync(message.Id, true);
 
             if (entityToUpdate is null)
-                throw new Exception($"ID: {message.Id} ile mesaj bulunamadı."); // Kendi NotFound hatan
+                throw new NotFoundException($"Message with ID {message.Id} not found."); // Kendi NotFound hatan
 
             // 2. Alanları güncelle
             entityToUpdate.Code = message.Code;
@@ -63,7 +64,7 @@ namespace Services
             var entityToDelete = await _systemMessageRepository.GetSystemMessageByIdAsync(id, false);
 
             if (entityToDelete is null)
-                throw new Exception($"ID: {id} ile mesaj bulunamadı.");
+                throw new NotFoundException($"Message with ID {id} not found.");
 
             // 2. Repository'ye "Sil" komutu ver
             _systemMessageRepository.DeleteSystemMessage(entityToDelete);
